@@ -1,9 +1,10 @@
 .contenedor{
-   background-image: url('../../../assets/img/fondoForm.jpg') ;
+   min-height: 899px;
    background-size: cover;
    margin: 0;
    padding: 0;
    font-family: sans-serif;
+   background-image: url('../../../assets/img/fondoForm.jpg') ;
 }
 .box{
    /*caracteristicas del paner del formulario  */
