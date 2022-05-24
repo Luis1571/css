@@ -13,6 +13,9 @@ import { IconoBuscarComponent } from './diseños/icono-buscar/icono-buscar.compo
 import { ImgCarruselComponent } from './diseños/img-carrusel/img-carrusel.component';
 import { MenuLetrasGrandesComponent } from './diseños/menu-letras-grandes/menu-letras-grandes.component';
 import { TabSectionComponent } from './diseños/tab-section/tab-section.component';
+import { TextImgComponent } from './diseños/text-img/text-img.component';
+import { LetraTransparenteVideoComponent } from './diseños/letra-transparente-video/letra-transparente-video.component';
+import { TextTrasparenteImgComponent } from './diseños/text-trasparente-img/text-trasparente-img.component';
 
 //import { FormTransparente } from "../app/diseños/FormTransparente/FormTransparente.component";
 
@@ -29,6 +32,9 @@ import { TabSectionComponent } from './diseños/tab-section/tab-section.componen
     ImgCarruselComponent,
     MenuLetrasGrandesComponent,
     TabSectionComponent,
+    TextImgComponent,
+    LetraTransparenteVideoComponent,
+    TextTrasparenteImgComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule],
   providers: [],

@@ -8,9 +8,12 @@ import { FocusComponent } from "./diseños/focus/focus.component";
 import { FormTransparenteComponent } from "./diseños/FormTransparente/FormTransparente.component";
 import { IconoBuscarComponent } from "./diseños/icono-buscar/icono-buscar.component";
 import { ImgCarruselComponent } from "./diseños/img-carrusel/img-carrusel.component";
+import { LetraTransparenteVideoComponent } from "./diseños/letra-transparente-video/letra-transparente-video.component";
 import { LetrasExpandidasComponent } from "./diseños/letras-expandidas/letras-expandidas.component";
 import { MenuLetrasGrandesComponent } from "./diseños/menu-letras-grandes/menu-letras-grandes.component";
 import { TabSectionComponent } from "./diseños/tab-section/tab-section.component";
+import { TextImgComponent } from "./diseños/text-img/text-img.component";
+import { TextTrasparenteImgComponent } from "./diseños/text-trasparente-img/text-trasparente-img.component";
 import { HomeComponent } from "./home/home.component";
 
 const routes: Routes = [
@@ -53,6 +56,18 @@ const routes: Routes = [
   {
     path: "tabSection",
     component: TabSectionComponent,
+  },
+  {
+    path: "textImg",
+    component: TextImgComponent,
+  },
+  {
+    path: "textVideo",
+    component: LetraTransparenteVideoComponent,
+  },
+  {
+    path: "textTransImg",
+    component: TextTrasparenteImgComponent,
   },
 ];
 
