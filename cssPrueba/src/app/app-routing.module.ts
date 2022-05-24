@@ -1,7 +1,49 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
+import { BotonesHoverComponent } from "./diseños/botones-hover/botones-hover.component";
+import { DivRedondeadoComponent } from "./diseños/div-redondeado/div-redondeado.component";
+import { FocusComponent } from "./diseños/focus/focus.component";
 
-const routes: Routes = [];
+import { FormTransparenteComponent } from "./diseños/FormTransparente/FormTransparente.component";
+import { IconoBuscarComponent } from "./diseños/icono-buscar/icono-buscar.component";
+import { ImgCarruselComponent } from "./diseños/img-carrusel/img-carrusel.component";
+import { LetrasExpandidasComponent } from "./diseños/letras-expandidas/letras-expandidas.component";
+import { HomeComponent } from "./home/home.component";
+
+const routes: Routes = [
+  {
+    path: "",
+    component: HomeComponent,
+  },
+  {
+    path: "FormularioTransparente",
+    component: FormTransparenteComponent,
+  },
+  {
+    path: "BotonesHover",
+    component: BotonesHoverComponent,
+  },
+  {
+    path: "divRedondo",
+    component: DivRedondeadoComponent,
+  },
+  {
+    path: "letrasExpandidas",
+    component: LetrasExpandidasComponent,
+  },
+  {
+    path: "focus",
+    component: FocusComponent,
+  },
+  {
+    path: "iconoBusqueda",
+    component: IconoBuscarComponent,
+  },
+  {
+    path: "imgCarrusel",
+    component: ImgCarruselComponent,
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
