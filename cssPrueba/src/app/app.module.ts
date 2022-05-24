@@ -11,6 +11,8 @@ import { LetrasExpandidasComponent } from './diseños/letras-expandidas/letras-e
 import { FocusComponent } from './diseños/focus/focus.component';
 import { IconoBuscarComponent } from './diseños/icono-buscar/icono-buscar.component';
 import { ImgCarruselComponent } from './diseños/img-carrusel/img-carrusel.component';
+import { MenuLetrasGrandesComponent } from './diseños/menu-letras-grandes/menu-letras-grandes.component';
+import { TabSectionComponent } from './diseños/tab-section/tab-section.component';
 
 //import { FormTransparente } from "../app/diseños/FormTransparente/FormTransparente.component";
 
@@ -25,6 +27,8 @@ import { ImgCarruselComponent } from './diseños/img-carrusel/img-carrusel.compo
     FocusComponent,
     IconoBuscarComponent,
     ImgCarruselComponent,
+    MenuLetrasGrandesComponent,
+    TabSectionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule],
   providers: [],
