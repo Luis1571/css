@@ -16,6 +16,10 @@ import { TabSectionComponent } from './diseños/tab-section/tab-section.componen
 import { TextImgComponent } from './diseños/text-img/text-img.component';
 import { LetraTransparenteVideoComponent } from './diseños/letra-transparente-video/letra-transparente-video.component';
 import { TextTrasparenteImgComponent } from './diseños/text-trasparente-img/text-trasparente-img.component';
+import { MenuAcordeonComponent } from './diseños/menu-acordeon/menu-acordeon.component';
+import { CardComponent } from './diseños/card/card.component';
+import { FantasmaComponent } from './diseños/fantasma/fantasma.component';
+import { IconosSmallComponent } from './diseños/iconos-small/iconos-small.component';
 
 //import { FormTransparente } from "../app/diseños/FormTransparente/FormTransparente.component";
 
@@ -35,6 +39,10 @@ import { TextTrasparenteImgComponent } from './diseños/text-trasparente-img/tex
     TextImgComponent,
     LetraTransparenteVideoComponent,
     TextTrasparenteImgComponent,
+    MenuAcordeonComponent,
+    CardComponent,
+    FantasmaComponent,
+    IconosSmallComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule],
   providers: [],
